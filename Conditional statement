@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{int n;
+
+scanf("%d",&n);
+if(n>0&&n<2)
+{
+printf("Food Item:Pizza\n");
+     printf( "Price:Rs239");
+}
+else if(n>1&&n<3)
+{printf("Food Item:Burger\n");
+printf("Price:Rs129");
+}
+else if(n>2&&n<4)
+{printf("Food Item:Pasta\n");
+printf("Price:Rs179");
+}
+else if(n>3&&n<5)
+{
+printf("Food Item:French Fries\n");
+printf("Price:Rs99");
+}
+else if(n>4&&n<6)
+{
+printf("Food Item:Sandwich\n");
+printf("Price:Rs149");
+}
+
+}
